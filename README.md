@@ -5,10 +5,10 @@ This project, part of the Data Acquisition course (MSDS 692) at the University o
 
 ## Installation
 1. Clone the repository:
-git clone <repository-url>
+'git clone <repository-url>'
 
 2. Navigate to the project directory:
-cd article-recommendation
+`cd article-recommendation`
 
 3. Set up a virtual environment:
 python -m venv env-ar
