@@ -15,8 +15,10 @@ This project, part of the Data Acquisition course (MSDS 692) at the University o
 3. Set up a virtual environment:
 
 `python -m venv env-ar`
-`source env-ar/bin/activate # Unix-based systems`
-`env-ar\Scripts\activate # Windows`
+
+`source env-ar/bin/activate` # Unix-based systems
+
+`env-ar\Scripts\activate` # Windows
 
 5. Install the required dependencies:
 
