@@ -41,6 +41,3 @@ The data files `articles.pkl`, 'recommended.pkl', and 'bbc data' required for th
 - `server.py`: Flask server script to serve the web interface.
 - `templates/`: HTML templates for the web interface.
 - `requirements.txt`: Lists all the dependencies required to run the project.
-
-## Contributing
-Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.
