@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>{{ title }}</h1>
+    <p>
+        <!-- Display the main article content. -->
+        {{ article[2]|safe }}
+    </p>
+
+    <h2>Recommended Articles:</h2>
+    <ul>
+        {% for recommended_article in recommended_articles %}
+            <li><a href="{{ recommended_article.1 }}">{{ recommended_article.0 }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+
+</body>
+</html>

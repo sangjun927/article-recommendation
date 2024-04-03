@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Articles</title>
+</head>
+<body>
+    <h1>Articles</h1>
+    <ul>
+        {% for title, filename, topic in titles %}
+            <li><a href="{{ url_for('article', topic=topic, filename=filename) }}">{{ title }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
